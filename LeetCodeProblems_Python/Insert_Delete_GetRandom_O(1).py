@@ -8,7 +8,7 @@ class RandomizedSet:
             return False
         else:
             self.set.add(val)
-            return Truehttps://leetcode.com/problems/insert-delete-getrandom-o1/
+            return True
 
     def remove(self, val: int) -> bool:
         if val in self.set:
